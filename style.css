@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.nav {
+    display:flex; 
+    justify-content:space-around;
+    align-items: center;
+    position:sticky;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+
+}
+.nav div img{
+    width: 176.4px;
+    height: 56px;
+    top: 32px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.nav div{
+    width: Fixed (131px)px;
+    height: Fixed (50px)px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+    color: #243A66;
+    font-family:'Poppins';
+
+}
+.nav div button{
+    display:flex;
+    justify-content:center;
+    color:white;
+    background: #3173B0;
+    width: 105px;
+    height: 45px;
+    top: 32px;
+    left: 1648px;
+    padding: 12px 40px 12px 40px;
+    gap: 10px;
+    border-radius: 4px ;
+    border: none;
+    font-family:'Poppins';
+}
+.nav .icon{
+    width:14px;
+    height:15px;
+    margin-left:10px;
+}
+.group{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    padding-left:55px;
+    height: 200px; 
+    margin-top:100px;
+    gap: 20px;
+
+}
+.main-group .group .alphaone{
+    font-family:" Merriweather";
+    font-size:larger;
+
+}
+.blue-color{
+    line-height:50px;
+}
+.main-group .group .alpha{
+    font-family:"Merriweather";
+    font-size:1.5em;
+    margin:10px;
+}
+.group .blue-color{
+    color: #3173B0
+}
+.group .another-blue{
+    color: #243A66;
+
+}
+.group .primary-button {
+    display:flex;
+    align-items:center;
+    justify-items:center;
+    padding: 16px 20px 16px 24px;
+    gap: 10px;
+    border-radius: 4px ;
+    opacity: 0px;
+    color:white;
+    background-color: #3173B0;
+    border:none;
+    font-size:medium;
+
+    
+}
+.group .secondary-button{
+    display:flex;
+    align-items:center;
+    justify-items:center;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border-radius: 4px ;
+    opacity: 0px;
+    color: #3173B0;
+    border:2px solid  #3173B0;
+    font-size:medium;
+    background-color:white;
+}
+.group .both{
+    display:flex;
+    gap:20px;
+}
+.group-ii img{
+    /* display:grid;
+    max-width:85%;
+    margin-top:20px; */
+    grid-template-columns: repeat(2, 30px);
+    /* padding:5px; */
+   
+    width: 275px;
+    height: 275px;
+    box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
+    -webkit-box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
+    -moz-box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
+    
+
+}
+.group-ii .image{
+    box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
+    -webkit-box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
+    -moz-box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
+}
+
+.group-ii > img{
+    box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
+}
+.group-ii{
+    display:grid;
+    border-radius: 30px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    grid-template-columns: max-content max-content;
+    grid-template-rows:max-content max-content;
+    /* gap:3px; */
+    justify-items:center;
+    margin-top: 30px;
+    /* box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
+    -webkit-box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
+    -moz-box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75); */
+    /* border-radius:20px 90px 20px 90px; */
+}
+
+img:nth-child(2){
+    border-top-right-radius: 80px;
+}
+img:nth-child(3){
+    border-bottom-left-radius: 80px;
+}
+img:nth-child(1){
+    border-top-left-radius: 30px;
+}
+
+img:nth-child(4){
+    border-bottom-right-radius: 30px;
+}
+
+.description{
+    font-size:1em;
+    font-family:"poppins";
+    line-height:40px;
+}
+.third-group .blue-color{
+    color: #3173B0
+}
+.third-group .another-blue{
+    color:#243A66
+}
+.main-group{
+    display:flex;
+    flex-direction:row;
+    flex-flow:row wrap;
+    gap:120px;
+}
+.third-group{
+    display:grid;
+    padding-left:55px;
+    gap: 40px;
+    font-family:" Merriweather";
+    font-size:larger;
+}
+.third-group .four-columns {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.box {
+    width: 270px;
+    height: 330px;
+    padding: 24px 32px 24px 32px;
+    gap: 30px;
+    opacity: 0px;
+    border-radius:10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 40px;
+}
+
+.third-group .size{
+    font-size:2em;
+    font-family:"Merriweather";
+}
+.third-group .four-columns .another-blue {
+    font-size:1.1em;
+    font-family:"Merriweather";
+    font-weight:bold;
+}
+
+.box .icon{
+    width:40px;
+}
