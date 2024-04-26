@@ -6,48 +6,52 @@
     align-items: center;
     position:sticky;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0px 0px 0px;
+    color: #243A66;
+    font-family:'Poppins';
     
 
 }
-.nav div img{
+.nav .navlogo img{
     width: 176.4px;
     height: 56px;
     top: 32px;
     left: 120px;
-    gap: 0px;
-    opacity: 0px;
+    padding-left:90px;
+    padding-right:200px;
+
     
 }
-.nav div{
-    width: Fixed (131px)px;
-    height: Fixed (50px)px;
-    padding: 10px 0px 0px 0px;
-    gap: 10px;
-    opacity: 0px;
-    color: #243A66;
-    font-family:'Poppins';
 
+.nav .navthree{
+    padding: 10px 25px 15px 2px;
 }
-.nav div button{
+.nav .navthree button{
     display:flex;
     justify-content:center;
     color:white;
     background: #3173B0;
-    width: 105px;
-    height: 45px;
-    top: 32px;
-    left: 1648px;
-    padding: 12px 40px 12px 40px;
+    width: 90px;
+    height: 40px;
+    padding: 10px 25px 15px 2px;
     gap: 10px;
     border-radius: 4px ;
     border: none;
     font-family:'Poppins';
+    padding-right:0px;
 }
 .nav .icon{
     width:14px;
     height:15px;
     margin-left:10px;
 }
+
+.nav .navtwo{
+    display:flex;
+    padding:12px 40px 12px 40px;
+    gap:40px;
+}
+
 .group{
     display:flex;
     flex-direction:column;
@@ -55,12 +59,16 @@
     padding-left:55px;
     height: 200px; 
     margin-top:100px;
-    gap: 20px;
+    gap: 19px;
 
 }
-.main-group .group .alphaone{
+.main-group{
+    margin-bottom:70px;
+}
+.main-group .group .alfaone{
     font-family:" Merriweather";
-    font-size:larger;
+    font-size:32px;
+    line-height:10px;
 
 }
 .blue-color{
@@ -70,6 +78,14 @@
     font-family:"Merriweather";
     font-size:1.5em;
     margin:10px;
+}
+.main-group{
+    display:flex;
+    flex-direction:row;
+    flex-flow:row wrap;
+    gap:120px;
+    padding-left:60px;
+    padding-right:80px;
 }
 .group .blue-color{
     color: #3173B0
@@ -114,26 +130,16 @@
     /* display:grid;
     max-width:85%;
     margin-top:20px; */
-    grid-template-columns: repeat(2, 30px);
+    grid-template-columns: repeat(1, 20px);
     /* padding:5px; */
-   
-    width: 275px;
-    height: 275px;
-    box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
-    -webkit-box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
-    -moz-box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
+    width: 240px;
+    height: 240px;
     
 
 }
-.group-ii .image{
-    box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
-    -webkit-box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
-    -moz-box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
-}
 
-.group-ii > img{
-    box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
-}
+
+
 .group-ii{
     display:grid;
     border-radius: 30px;
@@ -143,7 +149,7 @@
     grid-template-rows:max-content max-content;
     /* gap:3px; */
     justify-items:center;
-    margin-top: 30px;
+    margin-top: 70px;
     /* box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
     -webkit-box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75);
     -moz-box-shadow: 10px 10px 50px 0px rgba(49,115,176,0.75); */
@@ -152,22 +158,46 @@
 
 img:nth-child(2){
     border-top-right-radius: 80px;
-}
-img:nth-child(3){
-    border-bottom-left-radius: 80px;
-}
-img:nth-child(1){
-    border-top-left-radius: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+
 }
 
+img:nth-child(1){
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
 img:nth-child(4){
-    border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+}
+
+
+img:nth-child(3){
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .description{
     font-size:1em;
     font-family:"poppins";
-    line-height:40px;
+    line-height:30px;
+}
+.third-group{
+    margin-top:20px;
 }
 .third-group .blue-color{
     color: #3173B0
@@ -175,12 +205,7 @@ img:nth-child(4){
 .third-group .another-blue{
     color:#243A66
 }
-.main-group{
-    display:flex;
-    flex-direction:row;
-    flex-flow:row wrap;
-    gap:120px;
-}
+
 .third-group{
     display:grid;
     padding-left:55px;
@@ -194,8 +219,8 @@ img:nth-child(4){
     grid-gap: 20px;
 }
 .box {
-    width: 270px;
-    height: 330px;
+    width: 245px;
+    height: 370px;
     padding: 24px 32px 24px 32px;
     gap: 30px;
     opacity: 0px;
@@ -203,19 +228,28 @@ img:nth-child(4){
     background-color: white;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     border: none;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .third-group .size{
     font-size:2em;
     font-family:"Merriweather";
 }
+.third-group .thirdgrouptwo{
+    font-family:"Poppins";
+    font-size:20px;
+}
 .third-group .four-columns .another-blue {
-    font-size:1.1em;
+    font-size:1em;
     font-family:"Merriweather";
     font-weight:bold;
+}
+.third-group .four-columns .footerdescription{
+    font-family:"Poppins";
+    font-size:15.5px;
 }
 
 .box .icon{
     width:40px;
+    justify-content:space-around;
 }
